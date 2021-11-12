@@ -1,0 +1,167 @@
+@media only screen and (min-width: 640px){  
+  .contact-page {
+    background: url(./images/contact-bg.jpg) 50% 0% no-repeat;
+    position: relative;
+    margin-bottom: 75px;
+    display: block;
+  }
+
+  .contact-text span {
+    right: 70px;
+  }
+
+  .speech-bubble {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 60px;
+  }
+
+  .speech-bubble .logo {
+    background: #fff;
+    padding: 15px 5px;
+  }
+
+  .speech-bubble .logo img {
+    width: 100%;
+  }
+
+  .speech-bubble .triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #fff;
+    margin: 0 auto;
+  }
+
+  /* section contact form */
+
+  .contact-us {
+    margin-bottom: 75px;
+  }
+
+  .contact-container {
+    display: flex;
+  }
+
+  .contact-container .contact-details {
+    width: 25%;
+  }
+
+  .contact-container .contact-form {
+    width: 75%;
+  }
+
+  .contact-details ul {
+    list-style: none;
+    padding-left: 0;
+    
+  }
+
+  .contact-details ul li {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: .9em;
+    
+  }
+
+  .contact-details ul li p {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .contact-info p:first-child {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #383838;
+    font-size: .9em;
+  }
+
+  /* section contact form input */
+
+  .contact-form form {
+    display: flex;
+  }
+
+  .contact-form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
+    width: 40%;
+  }
+
+  .contact-form-input input {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: .9em;
+  }
+  
+  .contact-form-input input:focus {
+    outline: none;
+    border: 2px solid #787878;
+  }
+  
+ /* section contact form msg */
+
+  .contact-form-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+
+  .contact-form-msg textarea {
+    width: 400px;
+    margin-bottom: 20px; 
+    height: 115px;
+  } 
+
+  .contact-form-msg textarea:focus {
+    outline: none;
+    border: 2px solid #787878;
+  }
+
+  .contact-form-msg input[type=submit] {
+    background-color: #7beec7;
+    height: 50px;
+    color: #fff;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 600;
+    transition-property: border, color;
+    transition-duration: .2s
+  } 
+
+  .contact-form-msg input[type=submit]:hover {
+    border: 1px solid #000;
+    color: #000;
+  }
+
+  textarea::placeholder {
+    
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
